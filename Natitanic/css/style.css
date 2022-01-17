@@ -1,0 +1,78 @@
+
+.color-card{
+    background: #2A2A2A;
+}
+.color-card1{
+    background: #2C2C2C;
+}
+body{
+    background: #414141;
+}
+header nav{
+
+    width: 100%;
+}
+header .container .gleb{
+    width: 100%;
+} 
+main .container .row .card{
+    border-radius: 5%;
+    padding: 0 30px  ; 
+}
+
+header .container .row .card .img-1{
+    width: 66px;
+    height: 75px;
+}
+header .container .row .card .img-2{
+    width: 180px;
+    height: 75px;
+}
+header .container .row .card .img-3{
+    width: 75px;
+    height: 75px;
+}
+header .container .row .card .img-4{
+    width: 75px;
+    height: 75px;
+}
+header .container .row .card .img-5{
+    width: 62px;
+    height: 75px;
+}
+header .container .row .card .img-6{
+    width: 75px;
+    height: 75px;
+}
+header .container .row .card .img-7{
+    width: 62px;
+    height: 75px;
+}
+main{
+    background-image: url('./Ellips.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-me{
+    position: relative;
+
+}
+.group1{
+    position:absolute;
+}
+.group2{
+    position: absolute;
+  
+}
+@media(max-width:768px){
+    .gleb-text h2{
+        /* font-size:55px ; */
+    }
+    .gleb-text h1{
+        /* font-size:80px ; */
+    }
+    .gleb-text p{
+        /* font-size: 28px; */
+    }
+}
