@@ -1,0 +1,101 @@
+
+.color{
+    background: #ffff;;
+}
+.color1{
+    background:  #E5E5E5;
+}
+.font-familyp{font-weight: 400;
+font-size: 18px;
+font-family: 'Poppins', sans-serif;
+}
+.textp{
+    font-weight: 500;
+    font-family:'Gelasio', serif ;
+    font-size: 32px;
+}
+h5{
+    font-weight: 500;
+    font-family:'Gelasio', serif ;
+    font-size: 24px;
+}
+.image{
+    margin-top: 5px;
+
+}
+main p{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.maincard{
+    background: #ffff;
+}
+main .container h3::before{
+    /* content:'______';
+    display: block;
+    width: 23%;
+    height: 1px;
+    color: #2D74FF; */
+
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #2D74FF ;
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+main .container .buttons i{
+    color:  #2D74FF;
+    background: #ffff;
+    border: 1px solid rgba(0, 0, 0, 0,1);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header nav ul li a:hover{
+    color: #2D74FF!important;
+}
+header nav ul li a{
+    font-size: 16px;
+    
+}
+header .card h5{
+    font-size: 18px;
+    color: #2D74FF;
+}
+header .card{
+    border: 1px solid white;
+}
+header .card .ptext{
+    font-size: 57px;
+    font-family: 'Gelasio', serif;
+    font-weight: 600;
+}
+header .card p span{
+    color:  #2D74FF;
+}
+header .card .bottom i{
+    border: 1px solid #2D74FF;
+    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    color: #2D74FF;
+    
+}
