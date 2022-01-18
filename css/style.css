@@ -1,78 +1,125 @@
+.main-color{
+    color: #02897A;
+}
+.color-white{
+    color: white;
+}
+.price-color{
+    color: #AFAFAF;
+}
+.color-warning{
+    color: gold;
+}
+.first-button{
+    border: 1px solid black;
+   
+}
+body .container button{
+    background-color: #02897A;
+}
+.card-image{
+    width: 51px;
+    height: 50px;
+}
+.card{
+    border: 0px solid ;
+}
+.card .card-body p{
+    font-size: 16px;
+    
+}
+.main-image-correct{
+    width: 35px;
+    height: 35px;
+}
+.avators{
+    /* width: 98px;
+    height: 98px; */
+}
+.avator-text{
+    background: white;
+    border-radius: 15px;
+    padding: 3%;
+    
+}
+.font-size-wahid{
+    font-size: 16px;
+}
+.font-size-positive{
+    font-size: 24px;
+}
+.font-size-positive:hover{
+    color:#02897A ;
+}
+.wahid-card{
+    border: 0px solid  #E5E5E5;
+}
+.wahid-card-withb{
+    border: 1px solid  #E5E5E5;
+}
+.price-tag{
+    font-size: 76px;
+    color:#02897A ;
 
-.color-card{
-    background: #2A2A2A;
 }
-.color-card1{
-    background: #2C2C2C;
+.price-tag:hover{
+    color: white;
 }
-body{
-    background: #414141;
-}
-header nav{
-
-    width: 100%;
-}
-header .container .gleb{
-    width: 100%;
-} 
-main .container .row .card{
+.price-card{
+    border: 1px solid #E5E5E5 ;
     border-radius: 5%;
-    padding: 0 30px  ; 
 }
+.price-card:hover{
+ background:#02897A ;
+ color: white;
+}
+.price-card:hover p{
+    color: white;
+}
+.price-amount{
+    color:#02897A  ;
+}
+.price-card:hover .price-amount{
+    color: white;
+}
+.price-card:hover .button-price{
 
-header .container .row .card .img-1{
-    width: 66px;
-    height: 75px;
+background: white;
 }
-header .container .row .card .img-2{
-    width: 180px;
-    height: 75px;
+.price-card:hover .button-order{
+    color: #02897A;
 }
-header .container .row .card .img-3{
-    width: 75px;
-    height: 75px;
+.product-foot{
+    background: #02897A;
+    border-radius: 20px;
+    padding: 30px;
 }
-header .container .row .card .img-4{
-    width: 75px;
-    height: 75px;
-}
-header .container .row .card .img-5{
-    width: 62px;
-    height: 75px;
-}
-header .container .row .card .img-6{
-    width: 75px;
-    height: 75px;
-}
-header .container .row .card .img-7{
-    width: 62px;
-    height: 75px;
-}
-main{
-    background-image: url('./Ellips.png');
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.about-me{
-    position: relative;
+.product-foot p{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
 
 }
-.group1{
-    position:absolute;
+@media(max-width:890px){
+    .product-foot p{
+        font-size: 20px ;
+    }
+    .get-this{
+        font-size: 10px ;
+    }
 }
-.group2{
-    position: absolute;
-  
+.button-last{
+    background: white !important;
+    color: #02897A;
+    
 }
-@media(max-width:768px){
-    .gleb-text h2{
-        /* font-size:55px ; */
-    }
-    .gleb-text h1{
-        /* font-size:80px ; */
-    }
-    .gleb-text p{
-        /* font-size: 28px; */
-    }
+.get-this{
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons-last{
+    border: 0px solid white;
+    background:  #EDFFFC;
+    padding: 5px;
+    border-radius: 50%;
 }
