@@ -1,125 +1,97 @@
+:root{
+    --color-gold:#FCD315;
+}
 .main-color{
-    color: #02897A;
+    color: var(--color-gold);
 }
-.color-white{
-    color: white;
+.nav-underline{
+    border-bottom: 1px solid lightgray;
 }
-.price-color{
-    color: #AFAFAF;
+
+.hover-a:hover{
+    color: var(--color-gold) !important;
+    text-decoration: underline;
 }
-.color-warning{
-    color: gold;
+.first-p{
+    font-weight: 500;
+    font-size: 32px;
 }
-.first-button{
-    border: 1px solid black;
+.second-p{
+    color: var(--color-gold);
+    font-size: 72px;
+    line-height: 77px;
+}
+@media(max-width:366px){
+   .second-p{
+       font-size: 35px;
+   }
+}
+.rasm-1{
+    position: relative;
+}
+.rasm-2{
+    position:absolute;
+    top:100px;
+    margin-left: 200px;
+}
+.fixed-button{
+    position: fixed;
+    right:120px;
+    bottom:200px;
+    border: 3px solid var(--color-gold);
+    border-radius: 10px;
+    color: var(--color-gold);
+    padding: 13px;
+    width: 50px;
+    height: 50px;
+    
+}
+.card-title{
+    font-weight: 500;
+    font-size: 20px;
+    color: #4F4F4F;
+}
+.btn-primary{
+    border-radius: 9px;
+    background: #6A6A6A;
+}
+.break-news{
+    border: 0px solid var(--color-gold);
+    background: var(--color-gold);
+  
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.break-news p{
+    font-size: 20px;
    
 }
-body .container button{
-    background-color: #02897A;
+.footer-up{
+    background-image: url('../sertifikat 2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 567px;
 }
-.card-image{
-    width: 51px;
-    height: 50px;
+footer{
+    background-color: #525252;;
 }
-.card{
-    border: 0px solid ;
-}
-.card .card-body p{
-    font-size: 16px;
+.last-icon{
+    width: 20px;
+    height: 20px;
     
 }
-.main-image-correct{
-    width: 35px;
-    height: 35px;
+@media(max-width:284px){
+    .footer-up h1{
+        font-size: medium;
+    }
 }
-.avators{
-    /* width: 98px;
-    height: 98px; */
+.last-section{
+    background:  #1d1c1c;
+    padding: 10px 0;
 }
-.avator-text{
-    background: white;
-    border-radius: 15px;
-    padding: 3%;
-    
-}
-.font-size-wahid{
-    font-size: 16px;
-}
-.font-size-positive{
-    font-size: 24px;
-}
-.font-size-positive:hover{
-    color:#02897A ;
-}
-.wahid-card{
-    border: 0px solid  #E5E5E5;
-}
-.wahid-card-withb{
-    border: 1px solid  #E5E5E5;
-}
-.price-tag{
-    font-size: 76px;
-    color:#02897A ;
-
-}
-.price-tag:hover{
-    color: white;
-}
-.price-card{
-    border: 1px solid #E5E5E5 ;
-    border-radius: 5%;
-}
-.price-card:hover{
- background:#02897A ;
- color: white;
-}
-.price-card:hover p{
-    color: white;
-}
-.price-amount{
-    color:#02897A  ;
-}
-.price-card:hover .price-amount{
-    color: white;
-}
-.price-card:hover .button-price{
-
-background: white;
-}
-.price-card:hover .button-order{
-    color: #02897A;
-}
-.product-foot{
-    background: #02897A;
+.last-button{
+    border: 1px solid var(--color-gold);
     border-radius: 20px;
-    padding: 30px;
-}
-.product-foot p{
-    font-size: 32px;
-    font-weight: 600;
-    color: white;
-
-}
-@media(max-width:890px){
-    .product-foot p{
-        font-size: 20px ;
-    }
-    .get-this{
-        font-size: 10px ;
-    }
-}
-.button-last{
-    background: white !important;
-    color: #02897A;
-    
-}
-.get-this{
-    font-size: 20px;
-    font-weight: 600;
-}
-.icons-last{
-    border: 0px solid white;
-    background:  #EDFFFC;
-    padding: 5px;
-    border-radius: 50%;
 }
